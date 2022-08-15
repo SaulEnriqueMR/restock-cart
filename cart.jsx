@@ -188,7 +188,7 @@ const Products = (props) => {
         </Col>
         <Col>
           <h1>CheckOut </h1>
-          <Button onClick={checkOut}>CheckOut $ {finalList().total}</Button>
+          <Button onClick={checkOut}>CheckOut ${finalList().total}</Button>
           <div> {finalList().total > 0 && finalList().final} </div>
         </Col>
       </Row>
